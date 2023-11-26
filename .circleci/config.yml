@@ -25,7 +25,7 @@ jobs:
       - checkout
       - run:
           name: "Print hello"
-          command: "echo Hello"
+          command: "echo Hello ${MY_NAME}"
   
   print-world:
     docker: 
