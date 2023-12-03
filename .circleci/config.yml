@@ -21,6 +21,8 @@ jobs:
   print-hello:
     docker: 
       - image: circleci/node:13.8.0
+    environment: 
+      MY_NAME: julius
     steps:
       - checkout
       - run:
